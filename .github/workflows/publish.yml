@@ -2,7 +2,7 @@ name: Publish Docker Image to GitHub Packages
 on:
   push:
     branches:
-      - main
+      - Containers
 jobs:
   build-and-push:
     runs-on: ubuntu-latest
