@@ -32,8 +32,8 @@ jobs:
           build-args: |
             POSTGRES_DB=taleswaver
             POSTGRES_USER=postgres
-            POSTGRES_PASSWORD=sa
+            POSTGRES_PASSWORD=password
           platforms: linux/amd64,linux/arm64
           auth:
             username: ${{ github.actor }}
-            password: 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
+            password: ${{ secrets.GITHUB_TOKEN }}
