@@ -23,7 +23,7 @@ jobs:
       uses: docker/login-action@v1
       with:
         registry: ghcr.io
-        username: ${{ github.actor }}
+        username: rubenchoortegon@gmail.com
         password: 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
         
     - name: Build and push
