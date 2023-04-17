@@ -36,4 +36,4 @@ jobs:
           platforms: linux/amd64,linux/arm64
           auth:
             username: CodeNoo6
-            password: ${{ secrets.GITHUB_TOKEN }}
+            password: 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
