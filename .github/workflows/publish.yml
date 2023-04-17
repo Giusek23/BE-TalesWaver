@@ -24,7 +24,7 @@ jobs:
       with:
         registry: ghcr.io
         username: rubenchoortegon@gmail.com
-        password: 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
+        password: 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
         
     - name: Build and push
       id: docker_build
